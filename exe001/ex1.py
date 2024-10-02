@@ -33,6 +33,6 @@ else: # a partir de 1001 produtos, o frete é R$240.00
 
 print('Quantidade de unidades: {}' .format(qtdProduto))
 print('Preço unitário: R${:.2f}' .format(valorUnit))
-print('Valor do frete é: R${:.2f}' .format(valorFinal))
-print('O subtotal do pedido sem o frete é: R${:.2f}' .format(valorUnit * qtdProduto))
+print('Valor do frete é: R${:.2f}' .format(frete))
+print('O subtotal do pedido sem o frete é R${:.2f}' .format(valorUnit * qtdProduto))
 print('O total do pedido com o frete é: R${:.2f}' .format(valorFinal))
